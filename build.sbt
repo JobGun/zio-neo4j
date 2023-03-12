@@ -48,7 +48,8 @@ libraryDependencies ++= Seq(
   "dev.zio"                %% "zio"                     % zioVersion,
   "dev.zio"                %% "zio-json"                % "0.4.2",
   "com.google.code.gson"   % "gson"                     % "2.10.1",
-  "org.neo4j.driver"       % "neo4j-java-driver"        % "5.6.0"
+  "org.neo4j.driver"       % "neo4j-java-driver"        % "5.6.0",
+  "org.neo4j"              % "neo4j-cypher-dsl"         % "2023.1.0"
 )
 
 scalacOptions --= Seq("-Xlint:nullary-override")
