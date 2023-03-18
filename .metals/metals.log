@@ -190,3 +190,154 @@ WARNING: Unmatched cancel notification for request id 6672
 2023.03.11 20:26:57 WARN  no build target for: /home/brad/zio-neo4j/src/main/scala/jobgun/zio/neo4j/Neo4jRequestService.scala
 2023.03.11 20:27:13 WARN  no build target for: /home/brad/zio-neo4j/src/main/scala/jobgun/zio/neo4j/Neo4jRequestService.scala
 2023.03.11 20:27:17 WARN  no build target for: /home/brad/zio-neo4j/src/main/scala/jobgun/zio/neo4j/Neo4jRequestService.scala
+2023.03.11 20:46:07 INFO  Shutting down server
+2023.03.11 20:46:07 INFO  shutting down Metals
+2023.03.11 20:46:07 INFO  Exiting server
+2023.03.15 17:44:53 INFO  Started: Metals version 0.11.11 in workspace '/home/brad/zio-neo4j' for client Visual Studio Code 1.76.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/brad/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.15 17:44:54 INFO  time: initialize in 0.94s
+2023.03.15 17:44:58 WARN  Build server is not auto-connectable.
+2023.03.15 17:44:58 WARN  no build target for: /home/brad/zio-neo4j/src/main/scala/jobgun/zio/neo4j/Neo4jRequestService.scala
+2023.03.15 17:45:03 INFO  no build target found for /home/brad/zio-neo4j/src/main/scala/jobgun/zio/neo4j/Neo4jRequestService.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.03.15 17:45:11 INFO  time: code lens generation in 13s
+2023.03.15 17:52:07 WARN  no build target for: /home/brad/zio-neo4j/build.sbt
+2023.03.15 17:54:47 WARN  no build target for: /home/brad/zio-neo4j/src/main/scala/jobgun/zio/neo4j/package.scala
+2023.03.15 17:55:15 WARN  no build target for: /home/brad/zio-neo4j/src/main/scala/jobgun/zio/neo4j/package.scala
+2023.03.15 17:55:21 WARN  no build target for: /home/brad/zio-neo4j/src/main/scala/jobgun/zio/neo4j/Neo4j.scala
+2023.03.15 17:55:47 WARN  no build target for: /home/brad/zio-neo4j/src/main/scala/jobgun/zio/neo4j/package.scala
+2023.03.15 17:57:14 WARN  no build target for: /home/brad/zio-neo4j/src/main/scala/jobgun/zio/neo4j/ResultSummaryExtensions.scala
+2023.03.15 17:57:24 WARN  no build target for: /home/brad/zio-neo4j/src/main/scala/jobgun/zio/neo4j/Neo4jConnection.scala
+2023.03.15 17:57:59 WARN  no build target for: /home/brad/zio-neo4j/src/main/scala/jobgun/zio/neo4j/Neo4jConnection.scala
+2023.03.15 17:58:55 WARN  no build target for: /home/brad/zio-neo4j/src/main/scala/jobgun/zio/neo4j/package.scala
+2023.03.15 17:59:26 WARN  no build target for: /home/brad/zio-neo4j/src/main/scala/jobgun/zio/neo4j/package.scala
+2023.03.15 18:00:44 WARN  no build target for: /home/brad/zio-neo4j/project/Dependencies.scala
+2023.03.15 18:00:45 WARN  no build target for: /home/brad/zio-neo4j/project/plugins.sbt
+2023.03.15 18:04:36 WARN  no build target for: /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/Neo4jConnectionTest.scala
+2023.03.15 18:04:43 WARN  no build target for: /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/Neo4jConnectionTest.scala
+2023.03.15 18:04:51 WARN  no build target for: /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/Neo4jTest.scala
+2023.03.15 18:04:58 WARN  no build target for: /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/Neo4jTest.scala
+2023.03.15 18:05:12 WARN  no build target for: /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/Neo4jRequestServiceTest.scala
+2023.03.15 18:05:13 WARN  no build target for: /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/Neo4jRequestServiceTest.scala
+2023.03.15 18:05:25 WARN  no build target for: /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/ResultSummaryExtensions.scala
+2023.03.15 18:05:26 WARN  no build target for: /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/ResultSummaryExtensions.scala
+2023.03.15 18:05:33 WARN  no build target for: /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/ResultSummaryExtensionsTest.scala
+2023.03.15 18:06:06 WARN  no build target for: /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/ResultSummaryExtensionsTest.scala
+2023.03.15 18:06:16 WARN  no build target for: /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/Neo4jTest.scala
+2023.03.15 18:06:17 WARN  no build target for: /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/Neo4jRequestServiceTest.scala
+2023.03.15 18:06:19 WARN  no build target for: /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/Neo4jConnectionTest.scala
+2023.03.15 19:01:19 INFO  Shutting down server
+2023.03.15 19:01:19 INFO  shutting down Metals
+2023.03.15 19:01:19 INFO  Exiting server
+2023.03.18 14:47:46 INFO  Started: Metals version 0.11.11 in workspace '/home/brad/zio-neo4j' for client Visual Studio Code 1.76.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/brad/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.18 14:47:47 INFO  time: initialize in 0.72s
+2023.03.18 14:47:49 WARN  Build server is not auto-connectable.
+2023.03.18 14:47:49 WARN  no build target for: /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/Neo4jConnectionTest.scala
+2023.03.18 14:47:58 INFO  no build target found for /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/Neo4jConnectionTest.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.03.18 14:48:01 INFO  time: code lens generation in 11s
+2023.03.18 14:48:01 INFO  time: code lens generation in 1.56s
+2023.03.18 14:48:01 INFO  time: code lens generation in 8.35s
+2023.03.18 14:51:02 WARN  no build target for: /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/Neo4jConnectionTest.scala
+2023.03.18 14:55:19 WARN  no build target for: /home/brad/zio-neo4j/build.sbt
+2023.03.18 14:55:35 WARN  no build target for: /home/brad/zio-neo4j/src/main/scala/jobgun/zio/neo4j/Neo4j.scala
+Exception in thread "pool-5-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.03.18 14:55:49 WARN  no build target for: /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/Neo4jConnectionTest.scala
+2023.03.18 14:56:05 WARN  no build target for: /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/Neo4jConnectionTest.scala
+2023.03.18 15:00:28 WARN  no build target for: /home/brad/zio-neo4j/build.sbt
+2023.03.18 15:00:28 WARN  Using indexes to guess the definition of zioVersion
+2023.03.18 15:02:38 WARN  no build target for: /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/Neo4jConnectionTest.scala
+2023.03.18 15:03:08 WARN  no build target for: /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/Neo4jConnectionTest.scala
+2023.03.18 15:03:28 WARN  no build target for: /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/Neo4jConnectionTest.scala
+2023.03.18 15:04:00 WARN  no build target for: /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/Neo4jConnectionTest.scala
+Mar 18, 2023 3:04:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 525
+2023.03.18 15:04:50 WARN  no build target for: /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/Neo4jConnectionTest.scala
+Mar 18, 2023 3:05:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 612
+2023.03.18 15:10:55 WARN  no build target for: /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/Neo4jConnectionTest.scala
+2023.03.18 15:11:08 WARN  no build target for: /home/brad/zio-neo4j/src/main/scala/jobgun/zio/neo4j/Neo4jConnection.scala
+2023.03.18 15:20:58 INFO  Started: Metals version 0.11.11 in workspace '/home/brad/zio-neo4j' for client Visual Studio Code 1.76.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/brad/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.18 15:20:59 INFO  time: initialize in 1s
+2023.03.18 15:21:02 WARN  Build server is not auto-connectable.
+2023.03.18 15:21:02 WARN  no build target for: /home/brad/zio-neo4j/src/main/scala/jobgun/zio/neo4j/Neo4jConnection.scala
+2023.03.18 15:21:06 INFO  no build target found for /home/brad/zio-neo4j/src/main/scala/jobgun/zio/neo4j/Neo4jConnection.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.03.18 15:21:07 INFO  time: code lens generation in 5.21s
+2023.03.18 15:21:07 INFO  time: code lens generation in 5.22s
+2023.03.18 16:42:42 WARN  no build target for: /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/Neo4jConnectionTest.scala
+2023.03.18 16:43:33 WARN  no build target for: /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/Neo4jTest.scala
+2023.03.18 16:44:49 WARN  no build target for: /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/Neo4jConnectionTest.scala
+2023.03.18 16:46:11 WARN  no build target for: /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/ResultSummaryExtensionsTest.scala
+Exception in thread "pool-5-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.03.18 16:53:37 WARN  no build target for: /home/brad/zio-neo4j/src/main/scala/jobgun/zio/neo4j/Neo4j.scala
+2023.03.18 16:54:27 WARN  no build target for: /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/Neo4jConnectionTest.scala
+2023.03.18 16:54:40 WARN  no build target for: /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/Neo4jConnectionTest.scala
+2023.03.18 16:55:54 WARN  no build target for: /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/Neo4jConnectionTest.scala
+2023.03.18 16:59:42 WARN  no build target for: /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/Neo4jConnectionTest.scala
+Exception in thread "pool-5-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.03.18 17:00:58 WARN  no build target for: /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/Neo4jConnectionTest.scala
+2023.03.18 17:05:45 WARN  no build target for: /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/Neo4jConnectionTest.scala
+Mar 18, 2023 5:05:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: 0
+java.lang.IndexOutOfBoundsException: 0
+	at scala.collection.LinearSeqOps.apply(LinearSeq.scala:131)
+	at scala.collection.LinearSeqOps.apply$(LinearSeq.scala:128)
+	at scala.collection.immutable.List.apply(List.scala:79)
+	at dotty.tools.dotc.util.Signatures$.countParams(Signatures.scala:501)
+	at dotty.tools.dotc.util.Signatures$.applyCallInfo(Signatures.scala:186)
+	at dotty.tools.dotc.util.Signatures$.computeSignatureHelp(Signatures.scala:94)
+	at dotty.tools.dotc.util.Signatures$.signatureHelp(Signatures.scala:63)
+	at scala.meta.internal.pc.MetalsSignatures$.signatures(MetalsSignatures.scala:21)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:51)
+
+2023.03.18 17:05:52 WARN  no build target for: /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/Neo4jConnectionTest.scala
+2023.03.18 17:06:10 WARN  no build target for: /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/Neo4jConnectionTest.scala
+2023.03.18 17:06:25 WARN  no build target for: /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/Neo4jConnectionTest.scala
+2023.03.18 17:06:38 WARN  no build target for: /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/Neo4jConnectionTest.scala
+2023.03.18 17:36:50 WARN  no build target for: /home/brad/zio-neo4j/src/main/scala/jobgun/zio/neo4j/Neo4jConnection.scala
+2023.03.18 18:41:02 WARN  no build target for: /home/brad/zio-neo4j/project/plugins.sbt
+2023.03.18 18:41:07 WARN  no build target for: /home/brad/zio-neo4j/project/plugins.sbt
+2023.03.18 18:41:10 WARN  no build target for: /home/brad/zio-neo4j/build.sbt
+2023.03.18 18:41:47 WARN  no build target for: /home/brad/zio-neo4j/build.sbt
+2023.03.18 18:43:58 WARN  no build target for: /home/brad/zio-neo4j/build.sbt
+2023.03.18 18:43:58 INFO  skipping build import with status 'Dismissed'
+2023.03.18 18:44:03 WARN  no build target for: /home/brad/zio-neo4j/build.sbt
+2023.03.18 18:44:03 INFO  skipping build import with status 'Dismissed'
+2023.03.18 18:44:43 WARN  no build target for: /home/brad/zio-neo4j/build.sbt
+2023.03.18 18:44:43 INFO  skipping build import with status 'Dismissed'
+2023.03.18 18:44:48 WARN  no build target for: /home/brad/zio-neo4j/build.sbt
+2023.03.18 18:44:48 INFO  skipping build import with status 'Dismissed'
+2023.03.18 18:45:04 WARN  no build target for: /home/brad/zio-neo4j/src/test/scala/jobgun/zio/neo4j/Neo4jConnectionTest.scala

@@ -10,7 +10,7 @@ import org.neo4j.driver.{
 }
 
 // ZIO Imports:
-import zio.*
+import zio.{ZIO, Task, UIO}
 
 /** Handles the Neo4J driver and methods to access it.
   *
@@ -21,7 +21,7 @@ import zio.*
   * @param pwd
   *   A password to a database
   * @param config
-  *   // A connection configuration
+  *   A connection configuration
   */
 final case class Neo4jConnection private (
     uri: String,

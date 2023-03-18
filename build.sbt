@@ -16,9 +16,6 @@ inThisBuild(
     Test / parallelExecution := false,
     Test / fork := true,
     run / fork := true,
-    pgpPublicRing := file("/tmp/public.asc"),
-    pgpSecretRing := file("/tmp/secret.asc"),
-    pgpPassphrase := sys.env.get("PGP_PASSWORD").map(_.toArray),
     scmInfo := Some(
       ScmInfo(url("https://github.com/jobgun/zio-neo4j/"), "scm:git:git@github.com:jobgun/zio-neo4j.git")
     ),
@@ -33,6 +30,20 @@ inThisBuild(
   )
 )
 
+ThisBuild / publish / skip := true
+ThisBuild / publishMavenStyle := true
+ThisBuild / versionScheme := Some("early-semver")
+ThisBuild / publishTo := Some(
+  "GitHub Package Registry " at "https://maven.pkg.github.com/alterationx10/ursula"
+)
+
+ThisBuild / credentials += Credentials(
+  "GitHub Package Registry", // realm
+  "maven.pkg.github.com", // host
+  "baovitt", // user
+  sys.env.getOrElse("GITHUB_TOKEN", "") // password
+)
+
 name := "zio-neo4j"
 scalafmtOnCompile := false
 
@@ -43,8 +54,9 @@ buildInfoPackage := "zio.neo4j"
 val zioVersion = "2.0.0"
 
 libraryDependencies ++= Seq(
-  "dev.zio"                %% "zio-test"                % zioVersion % "test",
-  "dev.zio"                %% "zio-test-sbt"            % zioVersion % "test",
+  "dev.zio"                %% "zio-test"                % zioVersion % Test,
+  "dev.zio"                %% "zio-test-sbt"            % zioVersion % Test,
+  "dev.zio"                %% "zio-test-magnolia"       % zioVersion % Test,
   "dev.zio"                %% "zio"                     % zioVersion,
   "dev.zio"                %% "zio-json"                % "0.4.2",
   "com.google.code.gson"   % "gson"                     % "2.10.1",
@@ -53,8 +65,6 @@ libraryDependencies ++= Seq(
 )
 
 scalacOptions --= Seq("-Xlint:nullary-override")
-
-testFrameworks += new TestFramework("zio.test.sbt.ZTestFramework")
 
 addCommandAlias("fmt", "all scalafmtSbt scalafmt test:scalafmt")
 addCommandAlias("check", "all scalafmtSbtCheck scalafmtCheck test:scalafmtCheck")
